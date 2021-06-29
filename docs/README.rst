@@ -2,6 +2,9 @@
 DFTTK: Density Functional Theory Tool Kit
 =========================================
 
+.. image:: https://zenodo.org/badge/379352487.svg
+   :target: https://zenodo.org/badge/latestdoi/379352487
+   
 Project Goal
 ------------
 

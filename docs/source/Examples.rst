@@ -1,16 +1,31 @@
-Example
-=======
+Examples
+========
 
-The example is designed to have the user to test the DFTTK package using Al.
-The three folders are
+The examples are designed for users to test the DFTTK package, currently including 
+i) the stoichiometric phases of Al, Ni, Al3Ni, AlNi, AlNi3, Al3Ni4, and Al3Ni5, and 
+ii) the fcc solution phases of Al3Ni, AlNi, AlNi3 treated using SQS. 
+The examples can be downloaded from a separate GitHub repository by 
 
- - ``Al/`` - contains two files
+.. code-block:: bash
+
+git clone https://github.com/PhasesResearchLab/dfttk_example 
+
+where
+
+ - ``input/`` - contains input files for the exampled calculations
+ - ``output/`` - contains the calculated results for the examples
+ - ``ExptData.json`` - contains experimental data for comparison with the DFTTK calculations
+
+Al example
+----------
+
+
+ - ``input/Al/`` - contains two files
     - ``POSCAR`` - the regular VASP POSCAR file
     - ``SETTINGS.yaml`` - the setting file for quasiharmonic phonon calculation
- - ``Al_Fm-3m_225PBE/`` - contains all calculated thermodynamic properties
+ - ``output/Al_Fm-3m_225PBE/`` - contains all calculated thermodynamic properties
     after post-processing the data stored in the MongoDB database for a finished
     DFT calculations
-    - dir ``Yphon/`` - all data input/output for Yphon, e.x., hessian matrix (superfij.out), calculated phonon dos
     - dir ``figures/`` - plots in png format for most of the thermodynamic properities
     - file ``readme`` - extensive summary of the calculated results in json format
     - file ``fvib_ele`` - tablated data containing the calculated thermodynamic properties

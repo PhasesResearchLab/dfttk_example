@@ -1,2 +1,2 @@
 phonon : True
-phonon_supercell_matrix : [[4.0, 0, 0], [0, 4.0, 0], [0, 0, 4.0]]
+phonon_supercell_matrix : [[-3, 3, 3], [3, -3, 3], [3, 3, -3]]

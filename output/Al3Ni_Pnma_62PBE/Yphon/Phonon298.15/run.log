@@ -1,0 +1,4 @@
+time=Thu Sep  2 22:33:35 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps
+time=Thu Sep  2 22:33:51 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps -pdis dfile.oth

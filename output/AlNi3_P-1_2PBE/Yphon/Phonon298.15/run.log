@@ -1,0 +1,4 @@
+time=Wed Sep  8 17:52:13 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps
+time=Wed Sep  8 17:52:28 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps -pdis dfile.tri

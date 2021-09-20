@@ -1,0 +1,4 @@
+time=Mon Sep  6 20:24:50 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps
+time=Mon Sep  6 20:25:08 2021 host=PC WINDOWS USER
+ Yphon -tranI 2 -eps -pdis dfile.fcc
